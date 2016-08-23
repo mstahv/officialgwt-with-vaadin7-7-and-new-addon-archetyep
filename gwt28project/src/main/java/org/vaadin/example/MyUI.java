@@ -35,7 +35,7 @@ public class MyUI extends UI {
                     + ", it works!"));
         });
         
-        layout.addComponents(name, button);
+        layout.addComponents(name, button, new MyComponent());
         layout.setMargin(true);
         layout.setSpacing(true);
         
